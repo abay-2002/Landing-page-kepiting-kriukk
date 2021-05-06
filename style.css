@@ -100,13 +100,14 @@ nav ul li a span {
 }
 
 .container .item {
-	background-color: lightblue;
+	background-color: #e30f00;
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	padding: 25px;
 	font-size: 1.5em;
 	box-sizing: border-box;
+	color: rgba(255,255,255,1);
 }
 
 /*breakpoint untuk .container .item*/
@@ -118,8 +119,8 @@ nav ul li a span {
 /*penutup breakpoint untuk .container .item*/
 
 .container .item-title {
-	background-color: #e30f00;
-	color: rgba(255,255,255,1);
+	background-color: #fcf521;
+	color: rgba(0,0,0,1);
 }
 
 .container .item-title:hover {
