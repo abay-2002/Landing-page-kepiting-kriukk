@@ -53,35 +53,27 @@ header .logo-wrapper img {
 }
 /*header*/
 nav {
-	display: flex;
-	flex-direction: column;
 	width: 20%;
-/*	grid-template-columns: repeat(auto-fit,1fr);
-*/	background-color: #e30f00;
-	border-radius: 16px;
+	border-radius: 14px;
+	background-color: #e30f00;
 	margin: auto;
+	display: flex;
 	justify-content: center;
-	align-content: center;
-}
-
-nav ul {
-	margin: auto;
+	padding: 10px;
 }
 
 nav ul li {
 	display: inline-block;
-	list-style: none;
-	text-decoration: none;
-	margin: 10px;
+	margin: auto;
+}
+
+nav ul li a img {
+	width: 12px;
+	margin-right: 4px;
 }
 
 nav ul li a {
-	text-decoration: none;
-}
-
-nav ul li img {
-	width: 12px;
-	margin-right: 2.5px;
+	text-decoration:none;
 }
 
 nav ul li a span {
@@ -94,7 +86,6 @@ nav ul li a span {
 	grid-template-columns: repeat(1, minmax(150px, 1fr));
 	width: 45%;
 	margin: 50px auto;
-	align-content: center;
 	grid-gap: 10px;
 	/*background-color: green;*/
 }
