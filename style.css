@@ -135,17 +135,18 @@ nav ul li a span {
 	cursor: pointer;
 }
 
-.container #i-help a {
-	text-decoration: none;
-	color: rgba(255,255,255,1);
-}
 
-.container #i-help {
-	width: 40% !important;
+.container .i-help {
 	border-radius: 14px;
 	margin: auto;
 	background-color: #84f542;
 }
+
+.container .i-help a {
+	text-decoration: none;
+	color: rgba(255,255,255,1);
+}
+
 /*content*/
 
 /*footer*/
@@ -155,7 +156,6 @@ footer {
 	justify-content: center;
 	background-color: #fcf521;
 	margin: 50px auto;
-	padding: 25px;
 	box-sizing: border-box;
 }
 
@@ -163,6 +163,7 @@ footer p {
 	display: block;
 	text-align: center;
 	font-weight: bold;
+	margin: 50px;
 }
 
 footer p img {
