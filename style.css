@@ -58,11 +58,12 @@ nav {
 	background-color: #e30f00;
 	margin: auto;
 	padding: 10px;
+	justify-content: center;
 }
 
 nav ul li {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 }
 
