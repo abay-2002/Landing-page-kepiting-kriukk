@@ -57,14 +57,13 @@ nav {
 	border-radius: 14px;
 	background-color: #e30f00;
 	margin: auto;
-	display: flex;
-	justify-content: center;
 	padding: 10px;
 }
 
 nav ul li {
-	display: inline-block;
-	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
 nav ul li a img {
