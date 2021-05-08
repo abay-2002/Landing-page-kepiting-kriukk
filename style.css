@@ -133,10 +133,16 @@ nav ul li a span {
 	background-color: #84f542;
 }
 
+.container .i-help:hover {
+	transform: scale(.9);
+}
+
 .container .i-help a {
 	text-decoration: none;
 	color: rgba(255,255,255,1);
 }
+
+
 
 /*content*/
 
